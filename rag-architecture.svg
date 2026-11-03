@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 240" width="1000" height="240" font-family="Segoe UI, Helvetica, Arial, sans-serif">
+  <defs><marker id="a" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#6366f1"/></marker></defs>
+  <rect width="1000" height="240" rx="16" fill="#f8fafc" stroke="#e2e8f0"/>
+  <text x="500" y="38" text-anchor="middle" font-size="20" font-weight="700" fill="#1e293b">Production RAG Platform - End-to-End Pipeline</text>
+  <g font-size="15" font-weight="600" text-anchor="middle" fill="#1e293b">
+    <rect x="25" y="85" width="120" height="70" rx="10" fill="#e0e7ff" stroke="#6366f1"/><text x="85" y="115">Documents</text><text x="85" y="135" font-size="12" font-weight="400">PDF / DOC / CSV</text>
+    <rect x="185" y="85" width="120" height="70" rx="10" fill="#ede9fe" stroke="#7c3aed"/><text x="245" y="115">Ingestion</text><text x="245" y="135" font-size="12" font-weight="400">Chunk + Clean</text>
+    <rect x="345" y="85" width="120" height="70" rx="10" fill="#e0e7ff" stroke="#6366f1"/><text x="405" y="115">Embeddings</text><text x="405" y="135" font-size="12" font-weight="400">Vectors</text>
+    <rect x="505" y="85" width="120" height="70" rx="10" fill="#ede9fe" stroke="#7c3aed"/><text x="565" y="115">Vector DB</text><text x="565" y="135" font-size="12" font-weight="400">FAISS / Pinecone</text>
+    <rect x="665" y="85" width="120" height="70" rx="10" fill="#e0e7ff" stroke="#6366f1"/><text x="725" y="115">LLM</text><text x="725" y="135" font-size="12" font-weight="400">Grounded answer</text>
+    <rect x="825" y="85" width="150" height="70" rx="10" fill="#ede9fe" stroke="#7c3aed"/><text x="900" y="115">FastAPI + React</text><text x="900" y="135" font-size="12" font-weight="400">WebSocket stream</text>
+  </g>
+  <g stroke="#6366f1" stroke-width="2" marker-end="url(#a)">
+    <line x1="145" y1="120" x2="183" y2="120"/><line x1="305" y1="120" x2="343" y2="120"/>
+    <line x1="465" y1="120" x2="503" y2="120"/><line x1="625" y1="120" x2="663" y2="120"/><line x1="785" y1="120" x2="823" y2="120"/>
+  </g>
+  <text x="500" y="205" text-anchor="middle" font-size="14" fill="#475569">JWT / RBAC  •  Docker  •  GitHub Actions CI/CD  •  AWS  •  70% faster knowledge retrieval</text>
+</svg>

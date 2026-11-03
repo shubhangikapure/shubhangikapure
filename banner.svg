@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 260" width="1000" height="260">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0f172a"/><stop offset="0.55" stop-color="#312e81"/><stop offset="1" stop-color="#7c3aed"/>
+    </linearGradient>
+  </defs>
+  <rect width="1000" height="260" rx="18" fill="url(#bg)"/>
+  <g fill="none" stroke="#a5b4fc" stroke-opacity="0.35" stroke-width="1.5">
+    <line x1="760" y1="50" x2="840" y2="110"/><line x1="840" y1="110" x2="920" y2="60"/>
+    <line x1="840" y1="110" x2="880" y2="200"/><line x1="760" y1="50" x2="700" y2="150"/>
+    <line x1="700" y1="150" x2="880" y2="200"/><line x1="700" y1="150" x2="840" y2="110"/>
+  </g>
+  <g fill="#c4b5fd">
+    <circle cx="760" cy="50" r="7"/><circle cx="840" cy="110" r="10"/><circle cx="920" cy="60" r="6"/>
+    <circle cx="880" cy="200" r="8"/><circle cx="700" cy="150" r="6"/>
+  </g>
+  <text x="60" y="110" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="54" font-weight="700" fill="#ffffff">Shubhangi Kapure</text>
+  <text x="60" y="158" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="26" fill="#e0e7ff">Agentic AI / GenAI Engineer</text>
+  <text x="60" y="198" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="20" fill="#c7d2fe">LLM  •  RAG  •  Multi-Agent Systems  •  Python  •  FastAPI</text>
+</svg>
